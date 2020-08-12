@@ -3,7 +3,7 @@
  (libraries utop)
  (flags :standard -safe-string)
  (modes byte)
- (link_flags -linkall))
+ (link_flags -custom -linkall))
 
 (rule
  (targets utop-expunged.bc)
